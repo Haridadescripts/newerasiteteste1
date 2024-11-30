@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - New Era Roleplay</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="/public/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <img src="../img/image0.png" alt="New Era RPG" class="login-logo">
+                <h2>LOGIN</h2>
+            </div>
+            
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <div class="input-icon">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="username" name="username" required placeholder="Username">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="input-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" name="password" required placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <select id="loginType" name="loginType">
+                        <option value="player">JOGADOR</option>
+                        <option value="admin">ADMINISTRADOR</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="login-btn">ENTRAR</button>
+                
+                <div class="form-links">
+                    <a href="#forgot-password">Esqueceu a senha?</a>
+                    <a href="#register">Criar conta</a>
+                </div>
+            </form>
+
+            <div id="loginMessage" class="login-message"></div>
+        </div>
+    </div>
+
+    <script src="/public/js/login.js"></script>
+</body>
+</html> 

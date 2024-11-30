@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "$2a$10$PiM9xRXVVJ.BuOIoVXHF8.7SSK8Qb3jActZLHnUfx5M0xqmxN7IYi",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "player",
+      "password": "$2a$10$PiM9xRXVVJ.BuOIoVXHF8.7SSK8Qb3jActZLHnUfx5M0xqmxN7IYi",
+      "role": "player"
+    }
+  ]
+} 
